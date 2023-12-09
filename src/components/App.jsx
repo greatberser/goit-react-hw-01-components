@@ -1,11 +1,12 @@
 import { Profile } from './Profile/Profile'
-import user from './Profile/user.json'
+import user from 'user.json'
 import { Statistics } from './Statistics/Statistics'
-import data from './Statistics/data.json'
+import data from 'data.json'
 import { FriendList } from './FriendList/FriendList'
-import friend from './FriendList/friends.json'
+import friend from 'friends.json'
 import { Transactions } from './Transactions/Transactions'
-import transaction from './Transactions/transactions.json'
+import transaction from 'transactions.json'
+
 export const App = () => {
   return (
     <div>
