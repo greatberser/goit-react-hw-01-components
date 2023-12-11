@@ -9,25 +9,3 @@
     gap: 10px;
     
 }
-
-.friendItem{
-    width: 100%;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 10px;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-}
-
-.avatar{
-    width: 80px;
-    height: 7vh;
-}
-
-.name{
-    font-weight: 400;
-    font-size: 30px;
-}

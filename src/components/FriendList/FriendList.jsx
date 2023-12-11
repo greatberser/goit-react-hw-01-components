@@ -1,15 +1,16 @@
 import 'normalize.css';
 import css from './FriendList.module.css'
+import { FriendListItem } from 'components/FriendListItem/FriendListItem'
 
 export const FriendList = ({friends}) =>{
     return(
         <ul className={css.friendList}>
             {friends.map(({avatar, name, isOnline, id}) => (
-                <li key={id} className={css.friendItem}>
-                    <span className={css.status}>{isOnline ? '🟢' : `🔴`}</span>
-                    <img src={avatar} alt={name} className={css.avatar}  width="110"/>
-                    <p className={css.name}>{name}</p>
-                </li>
+                <FriendListItem key={id}
+                    avatar={avatar}
+                    name={name}
+                    isOnline={isOnline}
+                />
             ))}
         </ul>
     );

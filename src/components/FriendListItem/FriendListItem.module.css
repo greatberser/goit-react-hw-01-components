@@ -1,0 +1,38 @@
+
+.friendItem{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar{
+    width: 80px;
+    height: 7vh;
+}
+
+.name{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.online{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgb(56, 233, 56);
+    box-shadow: 0 0 8px rgba(56, 233, 56, 0.8);
+}
+
+.offline{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: red;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.8);
+}
